@@ -1,3 +1,4 @@
+/* We can use three different fonts */
 body {
   color: #40514E;
   margin: 0;
@@ -14,7 +15,7 @@ h1 {
 
 h2 {
   color: #A3BB98;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noirden', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
@@ -22,16 +23,17 @@ h2 {
 
 h3 {
   color: #A3BB98;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noirden', sans-serif;
 }
 
+/* The line-height CSS property is commonly used to set the distance between lines of text */
 p {
   line-height: 2;
 }
 ul {
   line-height: 2;
 }
-
+/* We can make dotted line */
 hr {
   border: dotted #EAF6F6 6px;
   border-bottom: none;
@@ -41,11 +43,12 @@ hr {
 
 .footer-link {
   color: #0a0af8;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noirden', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
+/* The :hover CSS pseudo-class matches when the user interacts with an element with a pointing device, but does not necessarily activate it.  */
 .footer-link:hover {
   color: #EAF6F6;
 }
@@ -58,10 +61,6 @@ hr {
   margin-bottom: 50px
 }
 
-.middle-container {
-  background-color: #F0ECCF
-  margin: 100px 0;
-}
 
 .bottom-container {
   background-color: #A3BB98;
@@ -74,6 +73,7 @@ hr {
   text-align: left;
   border-radius: 8px;
 }
+/* a media query to make the image disappear if width < 1200 */
 @media (max-width: 1200px) {
   .top-cloud {
     display: none;
@@ -95,15 +95,10 @@ hr {
   margin: auto;
 }
 
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
 
 .contact-me {
   width: 50%;
   margin: 100px auto 100px auto;
-  /* text-align: left; */
   border-radius: 8px;
   line-height: 2;
 }
@@ -124,6 +119,7 @@ hr {
 	transform: scale(1);
 	animation: pulse 2s infinite;
 }
+/* A simple pulse animation in every '2s infinite'*/
 @keyframes pulse {
 	0% {
 		transform: scale(0.95);
@@ -153,39 +149,3 @@ hr {
   border-radius: 8px;
 }
 
-.gig-img {
-  filter: opacity(0.8);
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-  border-radius: 8px;
-}
-
-
-.btn {
-  background: #9c98bb;
-  background-image: -webkit-linear-gradient(top, #A3BB98, #4b4a43);
-  background-image: -moz-linear-gradient(top, #A3BB98, #4b4a43);
-  background-image: -ms-linear-gradient(top, #A3BB98, #4b4a43);
-  background-image: -o-linear-gradient(top, #A3BB98, #4b4a43);
-  background-image: linear-gradient(to bottom, #A3BB98, #4b4a43);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  color: #F0ECCF;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #A3BB98;
-  background-image: -webkit-linear-gradient(top,#A3BB98, #A75D5D);
-  background-image: -moz-linear-gradient(top,#A3BB98, #A75D5D);
-  background-image: -ms-linear-gradient(top,#A3BB98, #A75D5D);
-  background-image: -o-linear-gradient(top,#A3BB98, #A75D5D);
-  background-image: linear-gradient(to bottom,#A3BB98, #A75D5D);
-  color: #0a0af8;
-  text-decoration: none;
-}
