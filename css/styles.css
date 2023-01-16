@@ -57,8 +57,7 @@ a:hover {
 }
 
 .middle-container {
-  background-color: #F0ECCF
-  margin: 100px 0;
+  margin-top: 50px ;
 }
 
 .bottom-container {
@@ -89,7 +88,7 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
+  width: 40%;
   margin: auto;
   text-align: left;
 }
@@ -97,6 +96,10 @@ a:hover {
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
+}
+
+.contact-me {
+  line-height: 2;
 }
 
 .copyright {
