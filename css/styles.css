@@ -39,25 +39,28 @@ hr {
   margin: 100px auto;
 }
 
-a{
+.footer-link {
   color: #0a0af8;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
-a:hover {
+.footer-link:hover {
   color: #EAF6F6;
 }
 
 .top-container {
   background-color: #FBC252;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px
 }
 
 .middle-container {
-  margin-top: 50px ;
+  background-color: #F0ECCF
+  margin: 100px 0;
 }
 
 .bottom-container {
@@ -78,7 +81,7 @@ a:hover {
   .code-img {
     display: none;
   }
-  .gig-img {
+  .code-img-right {
     display: none;
   }
 }
@@ -88,9 +91,8 @@ a:hover {
 }
 
 .intro {
-  width: 40%;
+  width: 30%;
   margin: auto;
-  text-align: left;
 }
 
 .contact-message {
@@ -99,6 +101,10 @@ a:hover {
 }
 
 .contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  /* text-align: left; */
+  border-radius: 8px;
   line-height: 2;
 }
 
@@ -136,6 +142,13 @@ a:hover {
 .code-img {
   width: 25%;
   float: left;
+  margin-right: 30px;
+  border-radius: 8px;
+}
+
+.code-img-right {
+  width: 25%;
+  float: right;
   margin-right: 30px;
   border-radius: 8px;
 }
