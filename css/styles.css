@@ -51,7 +51,7 @@ a:hover {
 }
 
 .top-container {
-  background-color: #FFB100;
+  background-color: #FBC252;
   position: relative;
   padding-top: 100px;
 }
@@ -92,12 +92,29 @@ a:hover {
   font-size: 0.75rem;
   padding: 20px 0;
 }
-
+.profile-img {
+  filter: opacity(0.8);
+}
 .top-cloud {
-  filter: opacity(0.3);
+  filter: opacity(0.7);
   position: absolute;
   right: 50px;
   top: 40px;
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.95);
+	}
 }
 
 
@@ -109,6 +126,7 @@ a:hover {
 }
 
 .gig-img {
+  filter: opacity(0.8);
   width: 25%;
   float: right;
   margin-left: 30px;
