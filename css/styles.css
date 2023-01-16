@@ -72,6 +72,17 @@ a:hover {
   text-align: left;
   border-radius: 8px;
 }
+@media (max-width: 1200px) {
+  .top-cloud {
+    display: none;
+  }
+  .code-img {
+    display: none;
+  }
+  .gig-img {
+    display: none;
+  }
+}
 
 .pro {
   text-decoration: underline;
